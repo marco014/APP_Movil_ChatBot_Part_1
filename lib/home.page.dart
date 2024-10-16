@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   // Función para abrir la URL de GitHub
   Future<void> _launchGitHub() async {
     final Uri url =
-        Uri.parse('https://github.com/marco014');
+        Uri.parse('https://github.com/marco014/APP_Movil_ChatBot_Part_1.git');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'No se pudo abrir el enlace $url';
     }
